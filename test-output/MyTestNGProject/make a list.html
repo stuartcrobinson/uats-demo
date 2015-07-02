@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  make a list</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>make a list</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 12:29:09 EDT 2015</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48714 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='T3_Create_a_List.check_AlwaysVisibleOnManageYourSubscriptionPage()'><b>check_AlwaysVisibleOnManageYourSubscriptionPage</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>0</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T4_Add_One_Email.check_ReusePreviousEmail()'><b>check_ReusePreviousEmail</b><br>Test class: T4_Add_One_Email</td>
+<td></td>
+<td>0</td>
+<td>T4_Add_One_Email@7f9fcf7f</td></tr>
+<tr>
+<td title='T4_Add_One_Email.click_AddContactsOneByOne()'><b>click_AddContactsOneByOne</b><br>Test class: T4_Add_One_Email</td>
+<td></td>
+<td>0</td>
+<td>T4_Add_One_Email@7f9fcf7f</td></tr>
+<tr>
+<td title='T4_Add_One_Email.click_Add_for_new_list()'><b>click_Add_for_new_list</b><br>Test class: T4_Add_One_Email</td>
+<td></td>
+<td>0</td>
+<td>T4_Add_One_Email@7f9fcf7f</td></tr>
+<tr>
+<td title='T3_Create_a_List.click_Save()'><b>click_Save</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>1</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T4_Add_One_Email.click_addContactAndSendEmail()'><b>click_addContactAndSendEmail</b><br>Test class: T4_Add_One_Email</td>
+<td></td>
+<td>0</td>
+<td>T4_Add_One_Email@7f9fcf7f</td></tr>
+<tr>
+<td title='T3_Create_a_List.close_AssistanceBubbles()'><b>close_AssistanceBubbles</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>2</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T3_Create_a_List.confirm_list_creation()'><b>confirm_list_creation</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>0</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T4_Add_One_Email.enter_email()'><b>enter_email</b><br>Test class: T4_Add_One_Email</td>
+<td></td>
+<td>0</td>
+<td>T4_Add_One_Email@7f9fcf7f</td></tr>
+<tr>
+<td title='T3_Create_a_List.enter_list_description()'><b>enter_list_description</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>0</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T3_Create_a_List.enter_list_name()'><b>enter_list_name</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>0</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T5_Activate_Customer_Permission.get_ConfirmationLinkFromCustomerEmailAccount()'><b>get_ConfirmationLinkFromCustomerEmailAccount</b><br>Test class: T5_Activate_Customer_Permission</td>
+<td></td>
+<td>37</td>
+<td>T5_Activate_Customer_Permission@2357d90a</td></tr>
+<tr>
+<td title='T2_Goto_Contacts.go_to_contacts()'><b>go_to_contacts</b><br>Test class: T2_Goto_Contacts</td>
+<td></td>
+<td>1</td>
+<td>T2_Goto_Contacts@44a664f2</td></tr>
+<tr>
+<td title='T3_Create_a_List.goto_Create_a_List()'><b>goto_Create_a_List</b><br>Test class: T3_Create_a_List</td>
+<td></td>
+<td>1</td>
+<td>T3_Create_a_List@7f77e91b</td></tr>
+<tr>
+<td title='T5_Activate_Customer_Permission.visit_url_to_activate_subscription()'><b>visit_url_to_activate_subscription</b><br>Test class: T5_Activate_Customer_Permission</td>
+<td></td>
+<td>1</td>
+<td>T5_Activate_Customer_Permission@2357d90a</td></tr>
+</table><p>
+</body>
+</html>

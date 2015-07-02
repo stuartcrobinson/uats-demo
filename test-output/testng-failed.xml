@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestNGProject]">
+  <test name="send an email(failed)" preserve-order="true">
+    <classes>
+      <class name="T7_Send_The_Email">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="confirm_CustomerReceiptOfEmail"/>
+        </methods>
+      </class>
+      <class name="T3_Create_a_List">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+      <class name="T2_Goto_Contacts">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+      <class name="T4_Add_One_Email">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+      <class name="T5_Activate_Customer_Permission">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+      <class name="T6_Create_An_Email">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+      <class name="T1_Login">
+        <methods>
+          <include name="setUpClass"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

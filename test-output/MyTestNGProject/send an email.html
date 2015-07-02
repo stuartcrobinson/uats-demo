@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  send an email</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>send an email</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 12:29:58 EDT 2015</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95370 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='T6_Create_An_Email.click_CreateAMessage()'><b>click_CreateAMessage</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>1</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T6_Create_An_Email.click_CreateTextOnlyEmail()'><b>click_CreateTextOnlyEmail</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>23</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T7_Send_The_Email.click_DeliverImmediately()'><b>click_DeliverImmediately</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>0</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+<tr>
+<td title='T6_Create_An_Email.click_Email()'><b>click_Email</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>0</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T7_Send_The_Email.click_ProceedToSend_Blue()'><b>click_ProceedToSend_Blue</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>0</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+<tr>
+<td title='T7_Send_The_Email.click_ProceedToSend_Green()'><b>click_ProceedToSend_Green</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>7</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+<tr>
+<td title='T6_Create_An_Email.click_TestMessage()'><b>click_TestMessage</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>21</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T7_Send_The_Email.confirm_CustomerReceiptOfEmail()'><b>confirm_CustomerReceiptOfEmail</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>30</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+<tr>
+<td title='T6_Create_An_Email.confirm_ReceiptOfTestEmail()'><b>confirm_ReceiptOfTestEmail</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>4</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T6_Create_An_Email.edit_Email_Content()'><b>edit_Email_Content</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>0</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T6_Create_An_Email.edit_Email_MessageName()'><b>edit_Email_MessageName</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>0</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T6_Create_An_Email.edit_Email_Subject()'><b>edit_Email_Subject</b><br>Test class: T6_Create_An_Email</td>
+<td></td>
+<td>0</td>
+<td>T6_Create_An_Email@2d2e5f00</td></tr>
+<tr>
+<td title='T7_Send_The_Email.initial_noSpamPromise()'><b>initial_noSpamPromise</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>0</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+<tr>
+<td title='T7_Send_The_Email.select_List()'><b>select_List</b><br>Test class: T7_Send_The_Email</td>
+<td></td>
+<td>2</td>
+<td>T7_Send_The_Email@8b96fde</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Test Suite]">
+  <test name="test2name(failed)" preserve-order="true">
+    <classes>
+      <class name="TestCase2">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class>
+      <class name="TestCase3">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="hello3"/>
+          <include name="hello2"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="test1name(failed)" preserve-order="true">
+    <classes>
+      <class name="TestCase2">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class>
+      <class name="TestCase1">
+        <methods>
+          <include name="hello2"/>
+        </methods>
+      </class>
+      <class name="TestCase3">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

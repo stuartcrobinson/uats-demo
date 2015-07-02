@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="31" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestNGProject" duration-ms="151877" started-at="2015-07-02T12:29:01Z" finished-at="2015-07-02T12:31:33Z">
+    <groups>
+    </groups>
+    <test name="send an email" duration-ms="95370" started-at="2015-07-02T12:29:58Z" finished-at="2015-07-02T12:31:33Z">
+      <class name="T7_Send_The_Email">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T7_Send_The_Email@8b96fde]" name="setUpClass" is-config="true" duration-ms="0" started-at="2015-07-02T12:30:51Z" finished-at="2015-07-02T12:30:51Z">
+        </test-method>
+        <test-method status="PASS" signature="click_ProceedToSend_Green()[pri:2, instance:T7_Send_The_Email@8b96fde]" name="click_ProceedToSend_Green" duration-ms="7844" started-at="2015-07-02T12:30:51Z" finished-at="2015-07-02T12:30:59Z">
+        </test-method>
+        <test-method status="PASS" signature="select_List()[pri:3, instance:T7_Send_The_Email@8b96fde]" name="select_List" duration-ms="2063" started-at="2015-07-02T12:30:59Z" finished-at="2015-07-02T12:31:01Z">
+        </test-method>
+        <test-method status="PASS" signature="click_ProceedToSend_Blue()[pri:4, instance:T7_Send_The_Email@8b96fde]" name="click_ProceedToSend_Blue" duration-ms="792" started-at="2015-07-02T12:31:01Z" finished-at="2015-07-02T12:31:01Z">
+        </test-method>
+        <test-method status="PASS" signature="initial_noSpamPromise()[pri:5, instance:T7_Send_The_Email@8b96fde]" name="initial_noSpamPromise" duration-ms="96" started-at="2015-07-02T12:31:01Z" finished-at="2015-07-02T12:31:01Z">
+        </test-method>
+        <test-method status="PASS" signature="click_DeliverImmediately()[pri:6, instance:T7_Send_The_Email@8b96fde]" name="click_DeliverImmediately" duration-ms="947" started-at="2015-07-02T12:31:01Z" finished-at="2015-07-02T12:31:02Z">
+        </test-method>
+        <test-method status="PASS" signature="confirm_CustomerReceiptOfEmail()[pri:7, instance:T7_Send_The_Email@8b96fde]" name="confirm_CustomerReceiptOfEmail" duration-ms="30759" started-at="2015-07-02T12:31:02Z" finished-at="2015-07-02T12:31:33Z">
+        </test-method>
+      </class>
+      <class name="T6_Create_An_Email">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T6_Create_An_Email@2d2e5f00]" name="setUpClass" is-config="true" duration-ms="1" started-at="2015-07-02T12:29:58Z" finished-at="2015-07-02T12:29:58Z">
+        </test-method>
+        <test-method status="PASS" signature="click_Email()[pri:1, instance:T6_Create_An_Email@2d2e5f00]" name="click_Email" duration-ms="732" started-at="2015-07-02T12:29:58Z" finished-at="2015-07-02T12:29:59Z">
+        </test-method>
+        <test-method status="PASS" signature="click_CreateAMessage()[pri:2, instance:T6_Create_An_Email@2d2e5f00]" name="click_CreateAMessage" duration-ms="1290" started-at="2015-07-02T12:29:59Z" finished-at="2015-07-02T12:30:00Z">
+        </test-method>
+        <test-method status="PASS" signature="click_CreateTextOnlyEmail()[pri:3, instance:T6_Create_An_Email@2d2e5f00]" name="click_CreateTextOnlyEmail" duration-ms="23463" started-at="2015-07-02T12:30:00Z" finished-at="2015-07-02T12:30:23Z">
+        </test-method>
+        <test-method status="PASS" signature="edit_Email_Subject()[pri:4, instance:T6_Create_An_Email@2d2e5f00]" name="edit_Email_Subject" duration-ms="494" started-at="2015-07-02T12:30:23Z" finished-at="2015-07-02T12:30:24Z">
+        </test-method>
+        <test-method status="PASS" signature="edit_Email_MessageName()[pri:5, instance:T6_Create_An_Email@2d2e5f00]" name="edit_Email_MessageName" duration-ms="231" started-at="2015-07-02T12:30:24Z" finished-at="2015-07-02T12:30:24Z">
+        </test-method>
+        <test-method status="PASS" signature="edit_Email_Content()[pri:6, instance:T6_Create_An_Email@2d2e5f00]" name="edit_Email_Content" duration-ms="181" started-at="2015-07-02T12:30:24Z" finished-at="2015-07-02T12:30:24Z">
+        </test-method>
+        <test-method status="PASS" signature="click_TestMessage()[pri:7, instance:T6_Create_An_Email@2d2e5f00]" name="click_TestMessage" duration-ms="21922" started-at="2015-07-02T12:30:24Z" finished-at="2015-07-02T12:30:46Z">
+        </test-method>
+        <test-method status="PASS" signature="confirm_ReceiptOfTestEmail()[pri:8, instance:T6_Create_An_Email@2d2e5f00]" name="confirm_ReceiptOfTestEmail" duration-ms="4553" started-at="2015-07-02T12:30:46Z" finished-at="2015-07-02T12:30:51Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="make a list" duration-ms="48714" started-at="2015-07-02T12:29:09Z" finished-at="2015-07-02T12:29:58Z">
+      <class name="T2_Goto_Contacts">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T2_Goto_Contacts@44a664f2]" name="setUpClass" is-config="true" duration-ms="1" started-at="2015-07-02T12:29:09Z" finished-at="2015-07-02T12:29:09Z">
+        </test-method>
+        <test-method status="PASS" signature="go_to_contacts()[pri:0, instance:T2_Goto_Contacts@44a664f2]" name="go_to_contacts" duration-ms="1197" started-at="2015-07-02T12:29:09Z" finished-at="2015-07-02T12:29:10Z">
+        </test-method>
+      </class>
+      <class name="T4_Add_One_Email">
+        <test-method status="PASS" signature="click_Add_for_new_list()[pri:1, instance:T4_Add_One_Email@7f9fcf7f]" name="click_Add_for_new_list" duration-ms="977" started-at="2015-07-02T12:29:16Z" finished-at="2015-07-02T12:29:17Z">
+        </test-method>
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T4_Add_One_Email@7f9fcf7f]" name="setUpClass" is-config="true" duration-ms="0" started-at="2015-07-02T12:29:16Z" finished-at="2015-07-02T12:29:16Z">
+        </test-method>
+        <test-method status="PASS" signature="click_AddContactsOneByOne()[pri:2, instance:T4_Add_One_Email@7f9fcf7f]" name="click_AddContactsOneByOne" duration-ms="603" started-at="2015-07-02T12:29:17Z" finished-at="2015-07-02T12:29:18Z">
+        </test-method>
+        <test-method status="PASS" signature="enter_email()[pri:3, instance:T4_Add_One_Email@7f9fcf7f]" name="enter_email" duration-ms="146" started-at="2015-07-02T12:29:18Z" finished-at="2015-07-02T12:29:18Z">
+        </test-method>
+        <test-method status="PASS" signature="check_ReusePreviousEmail()[pri:5, instance:T4_Add_One_Email@7f9fcf7f]" name="check_ReusePreviousEmail" duration-ms="89" started-at="2015-07-02T12:29:18Z" finished-at="2015-07-02T12:29:18Z">
+        </test-method>
+        <test-method status="PASS" signature="click_addContactAndSendEmail()[pri:6, instance:T4_Add_One_Email@7f9fcf7f]" name="click_addContactAndSendEmail" duration-ms="863" started-at="2015-07-02T12:29:18Z" finished-at="2015-07-02T12:29:19Z">
+        </test-method>
+      </class>
+      <class name="T3_Create_a_List">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T3_Create_a_List@7f77e91b]" name="setUpClass" is-config="true" duration-ms="0" started-at="2015-07-02T12:29:10Z" finished-at="2015-07-02T12:29:10Z">
+        </test-method>
+        <test-method status="PASS" signature="goto_Create_a_List()[pri:1, instance:T3_Create_a_List@7f77e91b]" name="goto_Create_a_List" duration-ms="1102" started-at="2015-07-02T12:29:10Z" finished-at="2015-07-02T12:29:11Z">
+        </test-method>
+        <test-method status="PASS" signature="enter_list_name()[pri:2, instance:T3_Create_a_List@7f77e91b]" name="enter_list_name" duration-ms="345" started-at="2015-07-02T12:29:11Z" finished-at="2015-07-02T12:29:12Z">
+        </test-method>
+        <test-method status="PASS" signature="enter_list_description()[pri:3, instance:T3_Create_a_List@7f77e91b]" name="enter_list_description" duration-ms="178" started-at="2015-07-02T12:29:12Z" finished-at="2015-07-02T12:29:12Z">
+        </test-method>
+        <test-method status="PASS" signature="check_AlwaysVisibleOnManageYourSubscriptionPage()[pri:4, instance:T3_Create_a_List@7f77e91b]" name="check_AlwaysVisibleOnManageYourSubscriptionPage" duration-ms="61" started-at="2015-07-02T12:29:12Z" finished-at="2015-07-02T12:29:12Z">
+        </test-method>
+        <test-method status="PASS" signature="click_Save()[pri:5, instance:T3_Create_a_List@7f77e91b]" name="click_Save" duration-ms="1343" started-at="2015-07-02T12:29:12Z" finished-at="2015-07-02T12:29:13Z">
+        </test-method>
+        <test-method status="PASS" signature="confirm_list_creation()[pri:6, instance:T3_Create_a_List@7f77e91b]" name="confirm_list_creation" duration-ms="21" started-at="2015-07-02T12:29:13Z" finished-at="2015-07-02T12:29:13Z">
+        </test-method>
+        <test-method status="PASS" signature="close_AssistanceBubbles()[pri:7, instance:T3_Create_a_List@7f77e91b]" name="close_AssistanceBubbles" duration-ms="2709" started-at="2015-07-02T12:29:13Z" finished-at="2015-07-02T12:29:16Z">
+        </test-method>
+      </class>
+      <class name="T5_Activate_Customer_Permission">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T5_Activate_Customer_Permission@2357d90a]" name="setUpClass" is-config="true" duration-ms="0" started-at="2015-07-02T12:29:19Z" finished-at="2015-07-02T12:29:19Z">
+        </test-method>
+        <test-method status="PASS" signature="get_ConfirmationLinkFromCustomerEmailAccount()[pri:1, instance:T5_Activate_Customer_Permission@2357d90a]" name="get_ConfirmationLinkFromCustomerEmailAccount" duration-ms="37688" started-at="2015-07-02T12:29:19Z" finished-at="2015-07-02T12:29:56Z">
+        </test-method>
+        <test-method status="PASS" signature="visit_url_to_activate_subscription()[pri:2, instance:T5_Activate_Customer_Permission@2357d90a]" name="visit_url_to_activate_subscription" duration-ms="1388" started-at="2015-07-02T12:29:56Z" finished-at="2015-07-02T12:29:58Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="login" duration-ms="7760" started-at="2015-07-02T12:29:01Z" finished-at="2015-07-02T12:29:09Z">
+      <class name="T1_Login">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:T1_Login@491666ad]" name="setUpClass" is-config="true" duration-ms="18" started-at="2015-07-02T12:29:01Z" finished-at="2015-07-02T12:29:01Z">
+        </test-method>
+        <test-method status="PASS" signature="go_to_login()[pri:0, instance:T1_Login@491666ad]" name="go_to_login" duration-ms="5057" started-at="2015-07-02T12:29:01Z" finished-at="2015-07-02T12:29:06Z">
+        </test-method>
+        <test-method status="PASS" signature="do_login()[pri:1, instance:T1_Login@491666ad]" name="do_login" duration-ms="2675" started-at="2015-07-02T12:29:06Z" finished-at="2015-07-02T12:29:09Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

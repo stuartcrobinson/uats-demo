@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestNGProject">
+
+    <test name="login">
+	<classes>
+	    <class name="T1_Login" />
+	</classes>
+    </test>
+	
+    <test name="make a list">
+	<classes>
+	    <class name="T2_Goto_Contacts" />
+	    <class name="T3_Create_a_List" />
+	    <class name="T4_Add_One_Email" />
+	    <class name="T5_Activate_Customer_Permission" />
+	</classes>
+    </test>
+	
+    <test name="send an email">
+	<classes>
+	    <class name="T6_Create_An_Email" />
+	    <class name="T7_Send_The_Email" />
+	</classes>
+    </test>
+</suite>
